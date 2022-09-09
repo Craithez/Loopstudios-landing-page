@@ -1,0 +1,43 @@
+/* import fonts Josefin Sans 300 and Alata 400 */
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+
+/*
+font-family: 'Alata', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+*/
+
+
+:root{
+    /*Primary colors */
+    /* White */
+    --clr-primary-white: hsl(0, 0%, 100%);
+    /* Black */
+    --clr-primary-black: hsl(0, 0%, 0%);
+    /* Dark Gray*/
+    --clr--primary-dark-gray: hsl(0, 0%, 55%);
+    /* Very Dark Gray */
+    --clr--primary-very-dark-grey: hsl(0, 0%, 41%);
+}
+
+
+/* Defaults */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 400;
+}
+
+/*
+
+/* Attribution */
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
