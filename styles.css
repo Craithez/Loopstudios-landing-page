@@ -6,6 +6,11 @@ font-family: 'Alata', sans-serif;
 font-family: 'Josefin Sans', sans-serif;
 */
 
+/* Background Hero Images */
+
+.navbar-wrapper {
+    background-image: url("images/desktop/image-hero.jpg")
+}
 
 :root{
     /*Primary colors */
@@ -41,4 +46,3 @@ font-family: 'Josefin Sans', sans-serif;
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
-
