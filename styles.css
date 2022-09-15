@@ -34,6 +34,20 @@ font-family: 'Josefin Sans', sans-serif;
     font-size: 400;
 }
 
+body {
+    font-size: 15px;
+}
+
+h1,h2,span {
+    font-family: 'Josefine Sans', sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+p,a, button {
+    font-family: 'Alata', sans-serif;
+}
+
 /*
 
 /* Attribution */
@@ -45,4 +59,15 @@ font-family: 'Josefin Sans', sans-serif;
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+header {
+    height: 100vh;
+    
+    background-image: url('../images/mobile/image-hero.jpg');
+    background-size: cover;
+    background-position: center top;
+
+    display: grid;
+    align-items: start;
 }
