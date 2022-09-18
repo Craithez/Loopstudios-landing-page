@@ -66,3 +66,14 @@ header {
     display: grid;
     align-items: start;
 }
+
+footer {
+    background-color: var(--clr-primary-black);
+    color: var(--clr-primary-white);
+    padding-top: 3.6rem;
+    padding-bottom: 3.5rem;
+}
+
+nav {
+    order: 2;
+}
