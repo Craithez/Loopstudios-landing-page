@@ -91,6 +91,26 @@ nav {
     animation: move-down 1s
 }
 
+.title-wrapper {
+    width: 86%;
+    max-width: 1114px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.title {
+    max-width: 652px;
+    padding: 20px;
+    border: 2px solid;
+    margin-top: 0;
+    margin-bottom: 0;
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+    animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+    font-size: 2.5rem;
+    color: #fff;
+    line-height: 1
+}
+
 @media(min-width: 1200px) {
     footer {
         padding-top: 2.8rem;
