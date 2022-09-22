@@ -123,3 +123,25 @@ nav {
         order: 2
     }
 }
+
+.navbar__wrapper {
+    width: 86%;
+    height: 25px;
+    max-width: 1114px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.navbar__logo {
+    display: block;
+    width: 150px
+}
+
+@media(min-width: 1200px) {
+    .navbar__logo {
+        width: 192px
+    }
+}
