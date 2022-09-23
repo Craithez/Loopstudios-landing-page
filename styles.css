@@ -139,9 +139,3 @@ nav {
     display: block;
     width: 150px
 }
-
-@media(min-width: 1200px) {
-    .navbar__logo {
-        width: 192px
-    }
-}
