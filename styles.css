@@ -111,14 +111,14 @@ nav {
     line-height: 1
 }
 
-@media(min-width: 1200px) {
+@media(min-width: 75rem) {
     footer {
         padding-top: 2.8rem;
         padding-bottom: 2.8rem
     }
 }
 
-@media(min-width: 1200px) {
+@media(min-width: 75rem) {
     footer nav {
         order: 2
     }
@@ -138,4 +138,5 @@ nav {
 .navbar__logo {
     display: block;
     width: 150px
+
 }
